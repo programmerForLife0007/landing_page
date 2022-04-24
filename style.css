@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.first,
+.second,
+.sixth {
+    display: flex;
+    background-color: #1F2937;
+    padding: 20px 100px;
+}
+
+.sec.first {
+   
+    align-items: center;
+}
+
+.link.left ul li a {
+    color: #F9faf8;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.link.right {
+    margin-left: auto;
+}
+
+.link.right ul li a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+}
