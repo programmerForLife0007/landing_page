@@ -1,18 +1,22 @@
-body{
+body {
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
 }
+
 .first,
 .second,
 .sixth {
     display: flex;
     background-color: #1F2937;
-    padding: 20px 100px;
+    padding: 20px 200px;
+}
+.second{
+    padding: 100px auto;
 }
 
 .sec.first {
-   
+
     align-items: center;
 }
 
@@ -26,9 +30,39 @@ body{
     margin-left: auto;
 }
 
-.link.right ul li a {
+.link.right ul li a,
+.second .hero-secondary {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.second .hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9faf8;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: 900px;
+}
+
+button {
+    background-color: #3882f6;
+    border: none;
+    margin-top: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
 }
 
 ul {
